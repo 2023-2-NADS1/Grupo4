@@ -4,13 +4,13 @@
 <a href= "https://www.fecap.br/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhZPrRa89Kma0ZZogxm0pi-tCn_TLKeHGVxywp-LXAFGR3B1DPouAJYHgKZGV0XTEf4AE&usqp=CAU" alt="FECAP - Fundação de Comércio Álvares Penteado" border="0"></a>
 </p>
 
-# Nome do Projeto
+# Rastreador Solar com Arduino
 
-## Nome do Grupo
+## Girassol
 
-## Integrantes: <a href="https://www.linkedin.com/feed/">Leonardo de Souza</a>, <a href="https://www.linkedin.com/in/victorbarq/">Daniel Baptista</a>,<a href="https://br.linkedin.com/in/fabriciocnascimento">Fabricio Nascimento</a>,<a href="https://www.linkedin.com/in/fabiospindola/">Fabio Spindola</a>
+## Integrantes: <a>Daniel Baptista</a>,<a href="https://www.linkedin.com/in/fabiospindola/">Fabio Spindola</a>,<a href="https://br.linkedin.com/in/fabriciocnascimento">Fabricio Nascimento</a>,<a>Leonardo de Souza</a>
 
-## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Dr. Victor Von Doom</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Saitama</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Strange</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Yoda</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Gero</a>
+## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Dr. Victor Von Doom</a>,
 
 ## Descrição
 
@@ -20,11 +20,9 @@
 </p>
 
 
-De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
-<br><br>
-Meu projeto ajuda estudantes FECAP a configurarem seus githubs.
-<br><br>
-May the force be with you!
+O Rastreador Solar é um dispositivo desenvolvido com o intuito de proporcionar uma melhor qualidade na captação da energia solar através de um exclusivo sistema de rastreamento via Sensores LDR.
+Por meio dos sensores LDR rastreamos a posição do sol e com a utilização de servos motores controlamos os movimentos na horizontal e na vertical do nosso projeto, tudo isto com um ESP 32 que lê, interpreta e executa os movimentos.
+Com o auxílio de placas solares será medido a energia capitada por elas.
 <br><br>
 
 ## 🛠 Estrutura de pastas
@@ -125,4 +123,3 @@ Aqui estão as referências usadas no projeto.
 2. <https://github.com/gabrieldejesus/readme-model>
 3. <https://creativecommons.org/share-your-work/>
 4. <https://freesound.org/>
-5. Músicas por: <a href="https://freesound.org/people/DaveJf/sounds/616544/"> DaveJf </a> e <a href="https://freesound.org/people/DRFX/sounds/338986/"> DRFX </a> ambas com Licença CC 0.
