@@ -4,24 +4,25 @@
 <a href= "https://www.fecap.br/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhZPrRa89Kma0ZZogxm0pi-tCn_TLKeHGVxywp-LXAFGR3B1DPouAJYHgKZGV0XTEf4AE&usqp=CAU" alt="FECAP - Fundação de Comércio Álvares Penteado" border="0"></a>
 </p>
 
-# Rastreador Solar com Arduino
+# Rastreador Solar com ESP32
 
-## Girassol
+## Grupo Girassol
 
-## Integrantes: <a>Daniel Baptista</a>,<a href="https://www.linkedin.com/in/fabiospindola/">Fabio Spindola</a>,<a href="https://br.linkedin.com/in/fabriciocnascimento">Fabricio Nascimento</a>,<a>Leonardo de Souza</a>
+## Integrantes: <a>Daniel Baptista</a>, <a href="https://www.linkedin.com/in/fabiospindola/">Fabio Spindola</a>, <a href="https://br.linkedin.com/in/fabriciocnascimento">Fabricio Nascimento</a>, <a>Leonardo de Souza</a>
 
-## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Dr. Victor Von Doom</a>,
+## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Dr. Victor Von Doom</a>
 
 ## Descrição
 
 <p align="center">
 <img src="https://pix4free.org/assets/library/2021-01-20/originals/game.jpg" alt="NOME DO JOGO" border="0">
-  Game by <a href="http://www.nyphotographic.com/">Nick Youngson</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> <a href="http://pix4free.org/">Pix4free</a>
 </p>
 
 
 O Rastreador Solar é um dispositivo desenvolvido com o intuito de proporcionar uma melhor qualidade na captação da energia solar através de um exclusivo sistema de rastreamento via Sensores LDR.
+<br><br>
 Por meio dos sensores LDR rastreamos a posição do sol e com a utilização de servos motores controlamos os movimentos na horizontal e na vertical do nosso projeto, tudo isto com um ESP 32 que lê, interpreta e executa os movimentos.
+<br><br>
 Com o auxílio de placas solares será medido a energia capitada por elas.
 <br><br>
 
