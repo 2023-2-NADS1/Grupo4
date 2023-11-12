@@ -18,12 +18,11 @@
 <img src="https://live.staticflickr.com/65535/53326523317_3978c86a19_h.jpg" alt="Rastreador Solar" border="0">
 </p>
 
-O Rastreador Solar é um dispositivo desenvolvido com o intuito de proporcionar uma melhor qualidade na captação da energia solar através de um exclusivo sistema de rastreamento via Sensores LDR.
+O Rastreador Solar é um dispositivo desenvolvido com o intuito de proporcionar uma melhor qualidade na captação da energia solar por meio de um exclusivo sistema de rastreamento via Sensores LDR.
 <br>
-Por meio dos sensores LDR rastreamos a posição do sol e com a utilização de servos motores controlamos os movimentos na horizontal e na vertical do nosso projeto, tudo isto com um ESP 32 que lê, interpreta e executa os movimentos.
+Com os sensores LDR rastreamos a posição do sol e com a utilização de servos motores controlaremos os movimentos na horizontal e na vertical do nosso projeto, tudo isso com um ESP 32 que lê, interpreta e executa os movimentos.
 <br>
 Com o auxílio de placas solares será medido a energia capitada por elas.
-<br>
 
 ## 🛠 Estrutura de pastas
 
