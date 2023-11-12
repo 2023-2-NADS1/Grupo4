@@ -10,7 +10,7 @@
 
 ## Integrantes: <a>Daniel Baptista</a>, <a href="https://www.linkedin.com/in/fabiospindola/">Fabio Spindola</a>, <a href="https://br.linkedin.com/in/fabriciocnascimento">Fabricio Nascimento</a>, <a>Leonardo de Souza</a>
 
-## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Dr. Victor Von Doom</a>
+## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Dr. Victor Von Doom</a>, <a>Adriano Felix Valente</a>
 
 ## Descrição
 
@@ -18,13 +18,12 @@
 <img src="https://live.staticflickr.com/65535/53326523317_3978c86a19_h.jpg" alt="Rastreador Solar" border="0">
 </p>
 
-
 O Rastreador Solar é um dispositivo desenvolvido com o intuito de proporcionar uma melhor qualidade na captação da energia solar através de um exclusivo sistema de rastreamento via Sensores LDR.
-<br><br>
+<br>
 Por meio dos sensores LDR rastreamos a posição do sol e com a utilização de servos motores controlamos os movimentos na horizontal e na vertical do nosso projeto, tudo isto com um ESP 32 que lê, interpreta e executa os movimentos.
-<br><br>
+<br>
 Com o auxílio de placas solares será medido a energia capitada por elas.
-<br><br>
+<br>
 
 ## 🛠 Estrutura de pastas
 
@@ -33,50 +32,24 @@ Com o auxílio de placas solares será medido a energia capitada por elas.
 |-->documentos<br>
   &emsp;|-->antigos<br>
   &emsp;|Documentação.docx<br>
-|-->executáveis<br>
-  &emsp;|-->windows<br>
-  &emsp;|-->android<br>
-  &emsp;|-->HTML<br>
 |-->imagens<br>
 |-->src<br>
   &emsp;|-->Backend<br>
-  &emsp;|-->Frontend<br>
 |readme.md<br>
-
-A pasta raiz contem dois arquivos que devem ser alterados:
-
-<b>README.MD</b>: Arquivo que serve como guia e explicação geral sobre seu projeto. O mesmo que você está lendo agora.
-
-Há também 4 pastas que seguem da seguinte forma:
-
-<b>documentos</b>: Toda a documentação estará nesta pasta.
-
-<b>executáveis</b>: Binários e executáveis do projeto devem estar nesta pasta.
-
-<b>imagens</b>: Imagens do sistema
-
-<b>src</b>: Pasta que contém o código fonte.
-
 
 ## 🗃 Histórico de lançamentos
 
-A cada atualização os detalhes devem ser lançados aqui.
-
-* 0.2.1 - 25/01/2022
-    * MUDANÇA: Atualização de docs (código do módulo permanece inalterado)
-* 0.2.0 - 15/01/2022
-    * MUDANÇA: Remove `setDefaultXYZ()`
-    * ADD: Adiciona `init()`
-* 0.1.1 - 11/01/2022
-    * CONSERTADO: Crash quando chama `baz()` (Obrigado @NomeDoContribuidorGeneroso!)
-* 0.1.0 - 10/01/2022
+* 0.1.1 - 14/11/2023
+    * ADD: Rede WiFi
+* 0.1.0 - 12/11/2023
     * O primeiro lançamento adequado
-    * MUDANÇA: Renomeia `foo()` para `bar()`
-* 0.0.1 - 01/01/2022
+    * ADD: Leitura das placas solares
+* 0.0.1 - 08/11/2023
     * Trabalho em andamento
 
 ## 📋 Licença/License
 
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/2023-2-NADS1/Grupo4">Rastreador Solar com ESP32</a> by <span property="cc:attributionName">Daniel Baptista, Fabio Spindola, Fabricio Nascimento, Leonardo de Souza</span> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a></p>
 
 ## 🎓 Referências
 
@@ -85,4 +58,7 @@ Aqui estão as referências usadas no projeto.
 1. <https://github.com/iuricode/readme-template>
 2. <https://github.com/gabrieldejesus/readme-model>
 3. <https://creativecommons.org/share-your-work/>
-4. <https://freesound.org/>
+4. <https://randomnerdtutorials.com/>
+5. <https://www.usinainfo.com.br/blog/>
+6. <https://mechatronicsblog.com/>
+7. <https://www.makerhero.com/blog>
