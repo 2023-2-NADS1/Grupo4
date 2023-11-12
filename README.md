@@ -15,7 +15,7 @@
 ## Descrição
 
 <p align="center">
-<img src="https://pix4free.org/assets/library/2021-01-20/originals/game.jpg" alt="NOME DO JOGO" border="0">
+<img src="https://live.staticflickr.com/65535/53326523317_3978c86a19_h.jpg" alt="Rastreador Solar" border="0">
 </p>
 
 
