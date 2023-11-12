@@ -30,10 +30,11 @@ Com o auxílio de placas solares será medido a energia capitada por elas.
 |<br>
 |-->documentos<br>
   &emsp;|-->antigos<br>
-  &emsp;|Documentação.docx<br>
+  &emsp;|apresentação.pdf<br>
 |-->imagens<br>
 |-->src<br>
   &emsp;|-->Backend<br>
+    &emsp;|0.0.1_versao_inicial_20231108.txt<br>
 |readme.md<br>
 
 ## 🗃 Histórico de lançamentos
