@@ -1,4 +1,4 @@
-#include <Servo.h>          // Inclui a Biblioteca
+#include <ESP32Servo.h>          // Inclui a Biblioteca
 
 Servo Horizontal;           // Inicia o servo horizontal
 Servo Vertical;             // Inicia o servo vertical
