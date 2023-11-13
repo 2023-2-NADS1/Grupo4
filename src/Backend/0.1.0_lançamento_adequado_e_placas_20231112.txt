@@ -12,18 +12,18 @@ int LimiteServoHorizontalMin = 65;   // Estabele os limites de rotação
 int LimiteServoVerticalMax = 120;    // Estabele os limites de rotação
 int LimiteServoVerticalMin = 15;     // Estabele os limites de rotação
 
-int LDR2 = 21;             // Porta do LDR2
-int LDR4 = 23;             // Porta do LDR4
-int LDR1 = 20;             // Porta do LDR1
-int LDR3 = 22;             // Porta do LDR3
-int  painel = D33;             // Porta do Painel
+int LDR2 = 42;             // Porta do LDR2 D21
+int LDR4 = 36;             // Porta do LDR4 D23
+int LDR1 = 38;             // Porta do LDR1 D19
+int LDR3 = 39;             // Porta do LDR3 D22
+int  painel = 13;             // Porta do Painel D33
 int  leituraPainel =0;             // Definimos algumas constantes para o funcionamento do codigo
 
 void setup()  {
   Serial.begin(9600);     // Inicia a leitura dos dados da placa solar
 
-  Horizontal.attach(27);     // Inicia servo horizontal na porta D27
-  Vertical.attach(26);       // Inicia servo vertical na porta D26
+  Horizontal.attach(16);     // Inicia servo horizontal na porta D27
+  Vertical.attach(15);       // Inicia servo vertical na porta D26
 
   Horizontal.write(180);    // Inicia servo horizontal na posição 180
   Vertical.write(45);       // Inicia servo vertical na posição 45
