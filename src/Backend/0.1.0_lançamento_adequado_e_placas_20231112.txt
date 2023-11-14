@@ -12,10 +12,10 @@ int LimiteServoHorizontalMin = 65;   // Estabele os limites de rotação
 int LimiteServoVerticalMax = 120;    // Estabele os limites de rotação
 int LimiteServoVerticalMin = 15;     // Estabele os limites de rotação
 
-int LDR2 = 42;             // Porta do LDR2 D21
+int LDR2 = 25;             // Porta do LDR2 RX2
 int LDR4 = 36;             // Porta do LDR4 D23
-int LDR1 = 38;             // Porta do LDR1 D19
-int LDR3 = 39;             // Porta do LDR3 D22
+int LDR1 = 34;             // Porta do LDR1 D5
+int LDR3 = 27;             // Porta do LDR3 TX2
 int  painel = 13;             // Porta do Painel D33
 int  leituraPainel =0;             // Definimos algumas constantes para o funcionamento do codigo
 
