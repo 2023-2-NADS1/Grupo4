@@ -40,7 +40,7 @@ Com o auxílio de placas solares será medido a energia capitada por elas.
   &emsp;|-->Backend<br>
     &emsp;&emsp;|0.0.1_versao_inicial_20231108.ino<br>
     &emsp;&emsp;|0.1.0_lançamento_adequado_e_placas_20231112.ino<br>
-    &emsp;&emsp;|0.1.1_implementacao_wifi_20231114.ino<br>    
+    &emsp;&emsp;|0.1.1_implementacao_wifi_20231114.ino<br>
 |readme.md<br>
 
 ## 🗃 Histórico de lançamentos
