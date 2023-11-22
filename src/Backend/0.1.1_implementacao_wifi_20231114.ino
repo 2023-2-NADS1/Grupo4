@@ -28,17 +28,14 @@ int LDR2 = 12;             // Porta do LDR2 D6
 int LDR4 = 14;             // Porta do LDR4 D8
 int LDR1 = 15;             // Porta do LDR1 D7
 int LDR3 = 13;             // Porta do LDR3 D5
-int  painel = 9;             // Porta do Painel SD2
+int  painel = A0;             // Porta do Painel SD2
 int  leituraPainel =0;             // Definimos algumas constantes para o funcionamento do codigo
 
 
 void setup() 
 {
- Blynk.begin(BLYNK_AUTH_TOKEN, ssid, pass);
 
-
-
-  Serial.begin(115200);     // Inicia a leitura dos dados da placa solar
+ Serial.begin(115200);     // Inicia a leitura dos dados
 
   Horizontal.attach(2);     // Inicia servo horizontal na porta D4
   Vertical.attach(0);       // Inicia servo vertical na porta D3
@@ -46,6 +43,7 @@ void setup()
   Horizontal.write(180);    // Inicia servo horizontal na posição 180
   Vertical.write(90);       // Inicia servo vertical na posição 90
   delay(3000);              // Aguarda 3 segundos
+
 }
 
 void loop() 
@@ -59,15 +57,16 @@ void loop()
   int LEC = analogRead(LDR1);      // Leitura Analógica do LDR Esquerda Cima
   int LDB = analogRead(LDR4);      // Leitura Analógica do LDR Direita Baixo
   int LEB = analogRead(LDR3);      // Leitura Analógica do LDR Esquerda Baixo
+  leituraPainel = analogRead(painel);
 
-  Blynk.run(); // colocar no loop
+  Blynk.run();
 
 
-Blynk.virtualWrite(V0, LDC);
-Blynk.virtualWrite(V1, LEC);
-Blynk.virtualWrite(V2, LDB);
-Blynk.virtualWrite(V3, LEB);
-Blynk.virtualWrite(V4, leituraPainel);
+  Blynk.virtualWrite(V0, LDC);
+  Blynk.virtualWrite(V1, LEC);
+  Blynk.virtualWrite(V2, LDB);
+  Blynk.virtualWrite(V3, LEB);
+  Blynk.virtualWrite(V4, leituraPainel);
 
   int tol = 50;
   Serial.println("LDR Direita Cima");
@@ -78,6 +77,8 @@ Blynk.virtualWrite(V4, leituraPainel);
   Serial.println(LDB);
   Serial.println("LDR Esquerda Baixo");
   Serial.println(LEB);
+  Serial.println("Leitura painel");
+  Serial.println(leituraPainel);
 
   int ValorSup = (LDC + LEC) / 2;   // Média da leitura dos LDR superior
   int ValorInf = (LDB + LEB) / 2;   // Média da leitura dos LDR inferior
@@ -92,6 +93,8 @@ Blynk.virtualWrite(V4, leituraPainel);
   Serial.println(DifDirEsq);
   Serial.println("Tol");
   Serial.println(-1*tol);
+
+  
   /*---------------------------------------------------*/
 
   // Realiza a leitura e executa os movimentos referente ao servo vertical
