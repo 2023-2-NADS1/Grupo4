@@ -43,6 +43,23 @@ Com o auxílio de placas solares será medido a energia capitada por elas.
     &emsp;&emsp;|0.1.1_implementacao_wifi_20231114.ino<br>
 |readme.md<br>
 
+## 🛠 Materiais utilizados
+
+* ADD: 01 x Estrutura em MDF
+* ADD: 02 x Servo Motor
+* ADD: 01 x ESP8266
+* ADD: 02 x Protoboard 400 Pontos
+* ADD: Jumper Macho Macho
+* ADD: Jumper Fêmea Fêmea
+* ADD: Jumper Macho Fêmea
+* ADD: 04 x Sensore de Luz Fotossensível - LDR
+* ADD: 02 x Painel Solar
+* ADD: 01 x Fonte Ajustável Protoboard
+* ADD: 04 x Resistor
+* ADD: Fita Isolante
+* ADD: Fita Dupla Face
+* ADD: Cola Quente
+
 ## 🗃 Histórico de lançamentos
 
 * 0.1.1 - 14/11/2023
