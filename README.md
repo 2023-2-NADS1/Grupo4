@@ -45,20 +45,28 @@ Com o auxílio de placas solares será medido a energia capitada por elas.
 
 ## 🛠 Materiais utilizados
 
-* ADD: 01 x Estrutura em MDF
-* ADD: 02 x Servo Motor
-* ADD: 01 x ESP8266
-* ADD: 02 x Protoboard 400 Pontos
-* ADD: Jumper Macho Macho
-* ADD: Jumper Fêmea Fêmea
-* ADD: Jumper Macho Fêmea
-* ADD: 04 x Sensore de Luz Fotossensível - LDR
-* ADD: 02 x Painel Solar
-* ADD: 01 x Fonte Ajustável Protoboard
-* ADD: 04 x Resistor
-* ADD: Fita Isolante
-* ADD: Fita Dupla Face
-* ADD: Cola Quente
+* 01 x Estrutura em MDF
+* 02 x Servo Motor
+* 01 x ESP8266
+* 02 x Protoboard 400 Pontos
+* Jumper Macho Macho
+* Jumper Fêmea Fêmea
+* Jumper Macho Fêmea
+* 04 x Sensore de Luz Fotossensível - LDR
+* 02 x Painel Solar
+* 01 x Fonte Ajustável Protoboard
+* 04 x Resistor
+* Fita Isolante
+* Fita Dupla Face
+* Cola Quente
+
+## 💻 Configuração para Desenvolvimento
+
+Para abrir este projeto você necessita das seguintes ferramentas:
+
+-<a href="https://www.arduino.cc/en/software">Arduino IDE</a>
+-<a href="https://www.tinkercad.com/">Tinkercad</a>
+-<a href="https://blynk.io/">Blynk</a>
 
 ## 🗃 Histórico de lançamentos
 
