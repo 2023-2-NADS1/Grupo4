@@ -1,13 +1,13 @@
 #include <Servo.h> //Inclui a bilioteca do servo
-#define BLYNK_TEMPLATE_ID "TMPL2bJ74D0ts"
-#define BLYNK_TEMPLATE_NAME "Girasol"
-#define BLYNK_AUTH_TOKEN "rDJSWl0Nuhh9olSXXwEnCVEjUXgLlR9C"
-#define BLYNK_PRINT Serial
-#include <ESP8266WiFi.h>
-#include <BlynkSimpleEsp8266.h>
+#define BLYNK_TEMPLATE_ID "TMPL2bJ74D0ts" //Inclui a bilioteca do wifi
+#define BLYNK_TEMPLATE_NAME "Girasol" //Inclui a bilioteca do wifi
+#define BLYNK_AUTH_TOKEN "rDJSWl0Nuhh9olSXXwEnCVEjUXgLlR9C" //Inclui a bilioteca do wifi
+#define BLYNK_PRINT Serial //Inclui a bilioteca do wifi
+#include <ESP8266WiFi.h> //Inclui a bilioteca do wifi
+#include <BlynkSimpleEsp8266.h> //Inclui a bilioteca do wifi
 
-// Your WiFi credentials.
-// Set password to "" for open networks.
+// Credenciais de acesso a rede
+
 char ssid[] = "Magal Spindola";
 char pass[] = "Podeusar";
 
@@ -18,17 +18,17 @@ Servo Vertical;             // Inicia o servo vertical
 int ServoHorizontal = 90;   // Estabelece valor fixo à ServoHorizontal
 int ServoVertical = 90;     // Estabelece valor fixo à ServoVertical
 
-int LimiteServoHorizontalMax = 180;  // Estabele os limites de rotação
-int LimiteServoHorizontalMin = 65;   // Estabele os limites de rotação
+int LimiteServoHorizontalMax = 180;  // Estabele os limites de rotação do servo horizontal
+int LimiteServoHorizontalMin = 65;   // Estabele os limites de rotação do servo horizontal
 
-int LimiteServoVerticalMax = 180;    // Estabele os limites de rotação
-int LimiteServoVerticalMin = 15;     // Estabele os limites de rotação
+int LimiteServoVerticalMax = 180;    // Estabele os limites de rotação do servovertical
+int LimiteServoVerticalMin = 15;     // Estabele os limites de rotação do servovertical
 
 int LDR2 = 12;             // Porta do LDR2 D6
 int LDR4 = 14;             // Porta do LDR4 D8
 int LDR1 = 15;             // Porta do LDR1 D7
 int LDR3 = 13;             // Porta do LDR3 D5
-int  painel = A0;             // Porta do Painel SD2
+int  painel = A0;             // Porta do Painel
 int  leituraPainel =0;             // Definimos algumas constantes para o funcionamento do codigo
 
 
@@ -59,8 +59,10 @@ void loop()
   int LEB = analogRead(LDR3);      // Leitura Analógica do LDR Esquerda Baixo
   leituraPainel = analogRead(painel);
 
-  Blynk.run();
 
+ // Envia dados para a rede
+ 
+  Blynk.run();
 
   Blynk.virtualWrite(V0, LDC);
   Blynk.virtualWrite(V1, LEC);
@@ -69,6 +71,7 @@ void loop()
   Blynk.virtualWrite(V4, leituraPainel);
 
   int tol = 50;
+ 
   Serial.println("LDR Direita Cima");
   Serial.println(LDC);
   Serial.println("LDR Esquerda Cima");
@@ -87,12 +90,12 @@ void loop()
 
   int DifSupInf = ValorSup - ValorInf;      // Diferença entre LED superior e inferior
   int DifDirEsq = ValorDir - ValorEsq;      // Diferença entre LED direita e esquerda
+
+ 
   Serial.println("Superior");
   Serial.println(DifSupInf);
   Serial.println("Direita");
   Serial.println(DifDirEsq);
-  Serial.println("Tol");
-  Serial.println(-1*tol);
 
   
   /*---------------------------------------------------*/
