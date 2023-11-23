@@ -64,9 +64,9 @@ Com o auxílio de placas solares será medido a energia capitada por elas.
 
 Para abrir este projeto você necessita das seguintes ferramentas:
 
--<a href="https://www.arduino.cc/en/software">Arduino IDE</a>
--<a href="https://www.tinkercad.com/">Tinkercad</a>
--<a href="https://blynk.io/">Blynk</a>
+* <a href="https://www.arduino.cc/en/software">Arduino IDE</a>
+* <a href="https://www.tinkercad.com/">Tinkercad</a>
+* <a href="https://blynk.io/">Blynk</a>
 
 ## 🗃 Histórico de lançamentos
 
