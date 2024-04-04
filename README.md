@@ -8,7 +8,7 @@
 
 ## Grupo Girassol
 
-## Integrantes: <a>Daniel Baptista</a>, <a href="https://www.linkedin.com/in/fabiospindola/">Fabio Spindola</a>, <a href="https://br.linkedin.com/in/fabriciocnascimento">Fabricio Nascimento</a>, <a>Leonardo de Souza</a>
+## Integrantes: <a>Daniel Baptista</a>, <a href="https://www.linkedin.com/in/fabiospindola/">Fabio Spindola</a>, <a href="https://br.linkedin.com/in/fabriciocnascimento">Fabricio Nascimento</a>, <a href="https://www.linkedin.com/in/leonardo-de-souza-mouzinho-5581bb2a8/>Leonardo de Souza</a>
 
 ## Professores Orientadores: <a>Adriano Felix Valente</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Victor Bruno Alexander Rosetti de Quiroz</a>
 
